@@ -3,6 +3,6 @@ pandas
 numpy
 plotly
 requests
-websocket-client
 scipy
 statsmodels
+websocket-client
