@@ -47,6 +47,25 @@ st.markdown("""
         border-color: #2d3748 !important;
     }
     hr { border-color: #2d3748; }
+    /* Selectbox dropdown */
+    [data-testid="stSelectbox"] * { color: #ffffff !important; }
+    div[data-baseweb="select"] { background-color: #1a1d27 !important; }
+    div[data-baseweb="select"] * { color: #ffffff !important; }
+    div[data-baseweb="popover"] { background-color: #1a1d27 !important; }
+    div[data-baseweb="popover"] * { color: #ffffff !important; }
+    
+    /* Radio buttons */
+    [data-testid="stRadio"] * { color: #ffffff !important; }
+    
+    /* Slider */
+    [data-testid="stSlider"] * { color: #ffffff !important; }
+    
+    /* Number input */
+    input[type="number"] { 
+        background-color: #1a1d27 !important; 
+        color: #ffffff !important;
+        border-color: #2d3748 !important;
+    }
 </style>
 """, unsafe_allow_html=True)
 
